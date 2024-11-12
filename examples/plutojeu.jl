@@ -19,6 +19,8 @@ end
 # ╔═╡ 50063b26-52bc-4a42-a3ad-42fab4e9d659
 begin
 	import Pkg
+    ## IMPORTANT, si vous avez cloné le package: git clone https://github.com/rcqls/Toto.jl
+    ## Ouvrir julia à l'endroit de Toto.jl et faites en mode pkg (taper "]"): instantiate
 	Pkg.activate("..")
 	using Vizagrams, PlutoUI, HypertextLiteral
 	using Toto
